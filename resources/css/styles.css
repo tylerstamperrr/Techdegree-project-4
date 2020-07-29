@@ -5,7 +5,7 @@
 
 * {
   font-family: 'Lato', sans-serif;
-  color: #777;
+  color: $grey;
   box-sizing: border-box;
 }
 
@@ -29,7 +29,7 @@ a {
 
 .headline-secondary {
   font-weight: 300;
-  color: #777;
+  color: $grey;
 }
 
 .link {
@@ -71,11 +71,11 @@ a {
 }
 
 .theme.col-1 {
-  background-color: #927bc1;
+  background-color: $lightpurple;
 }
 
 .theme.col-2 {
-  background-color: #fd7856;
+  background-color: $tomato;
 }
 
 .theme.col-3 {
@@ -146,8 +146,8 @@ a {
 }
 
 .nav-link:hover {
-  color: #fff;
-  background-color: #58e1c1;
+  color: $white;
+  background-color: $seafoam_green;
 }
 
 
@@ -158,7 +158,7 @@ a {
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: #fff;
+  color: $white;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
@@ -174,7 +174,7 @@ a {
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: $lightpurple;
 }
 
 .success {
@@ -182,7 +182,7 @@ a {
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: $tomato;
 }
 
 
@@ -200,7 +200,7 @@ a {
   margin: 10px auto 0;
   border: none;
   padding: 10px;
-  border-bottom: 5px solid #58e1c1;
+  border-bottom: 5px solid $seafoam_green;
 }
 
 .hidden {
